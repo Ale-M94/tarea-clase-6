@@ -6,6 +6,39 @@ const $botonCalcularEdades = document.createElement('button');
 const resultadosEdades = document.querySelector('#resultados-edades');
 const $botonLimpiar = document.createElement('button');
 
+function validarCantidadIntegrantes(cantidadIntegrantes){
+    if (cantidadIntegrantes === ""){
+        return "Este campo no puede estar vacío";
+    };
+
+    const cantidad = Number(cantidadIntegrantes);
+
+    if(cantidad <= 0){
+        return "La cantidad ingresada debe ser mayor a 0";
+    };
+
+    return "";
+};
+
+function validarEdad(edad){
+    if(edad <= 0){
+        return "La edad ingresada debe ser mayor a 0";
+    };
+
+    if(edad % 1 !== 0){
+        return "La edad no puede tener decimales";
+    };
+    return "";
+};
+
+function validarSalario(salario){
+    if(salario <= 0){
+        return "El sueldo no puede ser 0 o menor";
+    };
+
+    return "";
+};
+
 function calcularPromedio(arr) {
     let contador = 0;
     let totalElementos = 0;
