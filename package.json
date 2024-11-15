@@ -1,0 +1,22 @@
+{
+  "name": "tarea-clase-6",
+  "version": "1.0.0",
+  "description": "tarea de la clase 6 de r/Argentina Programa",
+  "main": "tarea-clase-6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ale-M94/tarea-clase-6.git"
+  },
+  "author": "Alejandro Milotich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ale-M94/tarea-clase-6/issues"
+  },
+  "homepage": "https://github.com/Ale-M94/tarea-clase-6#readme",
+  "devDependencies": {
+    "cypress": "^13.15.2"
+  }
+}

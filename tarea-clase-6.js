@@ -91,9 +91,11 @@ $botonIngresar.onclick = function () {
 
     cantidadIntegrantes.appendChild($botonCalcularEdades);
     $botonCalcularEdades.textContent = "Calcular";
+    $botonCalcularEdades.id = 'calcular-edades';
 
     cantidadIntegrantes.appendChild($botonLimpiar);
     $botonLimpiar.textContent = 'Empezar de nuevo';
+    $botonLimpiar.id = 'boton-limpiar';
 
     return false;
 };
